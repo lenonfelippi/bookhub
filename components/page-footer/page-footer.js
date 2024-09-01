@@ -15,7 +15,7 @@ class PageFooter extends HTMLElement {
       <link rel="stylesheet" href="/components/page-footer/page-footer.css">
 
       <div class="page-footer__content">
-        <a class="page-footer__link" href="https://github.com/lenonfelippi" target="_blank">Repositório</a>
+        <a class="page-footer__link" href="https://github.com/lenonfelippi/bookhub" target="_blank">Repositório</a>
       </div>
     `);
   }

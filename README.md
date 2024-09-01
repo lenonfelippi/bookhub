@@ -1,7 +1,18 @@
 # BookHub
 
-BookHub é um projeto que exibe carrosséis de livros usando Web Components.
-Este projeto é uma demonstração de como criar e gerenciar carrosséis dinâmicos com JavaScript, jQuery e Bootstrap.
+BookHub é um projeto criado com JavaScript, jQuery e Bootstrap.
+Em sua home, temos um exemplo de uso de um componente que exibe carrosséis de livros.
+Além da home, temos outras páginas, que contêm algumas questões sobre desenvolvimento web respondidas.
+
+```
+/task1.html
+/task2.html
+/task3.html
+/task3-2.html
+/task4.html
+/task4.html
+/improvements.html
+```
 
 ## Configuração do Projeto
 
@@ -12,7 +23,7 @@ Para configurar e executar o projeto localmente, siga estas etapas:
 Clone o repositório do GitHub para o seu ambiente local:
 
 ```
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/lenonfelippi/bookhub.git
 cd bookhub
 ```
 
@@ -39,3 +50,7 @@ Caso queira executar os testes unitários:
 ```
 npm run test
 ```
+
+### Melhorias futuras para o projeto
+
+No arquivo /improvements.html eu listo melhorias que podem ser aplicadas neste projeto.
