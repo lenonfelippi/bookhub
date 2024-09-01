@@ -1,0 +1,18 @@
+.page-header {
+  margin-bottom: 64px;
+  background-color: #f2f2f2;
+}
+
+.page-header__navbar .container-fluid {
+ padding: 0;
+}
+.page-header__title {
+  font-size: 38px;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.page-header__subtitle {
+  font-size: 24px;
+  padding-bottom: 16px;
+}

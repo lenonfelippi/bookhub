@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "/plugins/highlighted-quote/highlighted-quote.css";
+
+.page__title {
+  font-size: 32rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page__subtitle {
+  font-size: 24px;
+  color: #555;
+}
+
+xmp {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-x: auto;
+  background-color: #f2f2f2f2;
+  border-radius: 8px;
+}

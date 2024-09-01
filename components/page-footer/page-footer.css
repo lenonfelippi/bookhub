@@ -1,0 +1,11 @@
+.page-footer {
+  margin-top: 32px;
+  background-color: #f2f2f2;
+  padding: 32px 0 32px 0;
+}
+.page-footer__content {
+  text-align: center;
+}
+.page-footer__link {
+  font-size: 18px;
+}

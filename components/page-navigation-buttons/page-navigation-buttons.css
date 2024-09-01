@@ -1,0 +1,26 @@
+.page-navigation-buttons {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.page-navigation-buttons__button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #199319;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+.page-navigation-buttons__button:hover {
+  opacity: 0.5;
+}
+
+.page-navigation-buttons__button--disabled {
+  visibility: hidden;
+}

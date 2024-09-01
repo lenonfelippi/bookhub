@@ -1,0 +1,73 @@
+.book-carousel {
+  position: relative;
+  background-color: #2f2f2f;
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.book-carousel__box-image {
+  width: calc(100%-20px);
+  margin: 10px;
+  height: 352px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.book-carousel__image {
+  max-height: 300px;
+  max-width: 100%;
+}
+.book-carousel__title {
+  font-size: 32px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+.book-carousel__link-button {
+  display: inline-block;
+  background-color: #199319;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+.book-carousel__link-button:hover {
+  opacity: 0.5;
+}
+.book-carousel__error {
+  font-weight: bold;
+  color: red;
+}
+
+.book-carousel__nav-button--next,
+.book-carousel__nav-button--prev {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  background: 0 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.15s ease;
+}
+.book-carousel__nav-button--next:hover,
+.book-carousel__nav-button--prev:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.book-carousel__nav-button--next {
+  right: 0px;
+}
+.book-carousel__nav-button--prev {
+  left: 0px;
+}
