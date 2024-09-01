@@ -10,7 +10,6 @@ Além da home, temos outras páginas, que contêm algumas questões sobre desenv
 /task3.html
 /task3-2.html
 /task4.html
-/task4.html
 /improvements.html
 ```
 
